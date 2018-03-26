@@ -14,7 +14,7 @@ module.exports.login = (options) => {
         },
         req = {
             method: 'POST',
-            uri: 'https://web.spaggiari.eu/auth/app/default/AuthApi2.php?a=aLoginPwd',
+            uri: 'https://web.spaggiari.eu/home/app/default/login.php?target=atv&mode=',
             form: postData,
             json: true,
             resolveWithFullResponse: true,
